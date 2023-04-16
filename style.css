@@ -1,0 +1,51 @@
+img {
+    width: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.navbar {
+    background-color: rgb(222, 186, 255);
+}
+
+a {
+    font-size: 14px;
+    color: rgb(90, 94, 98);
+    text-decoration: none;
+}
+
+
+.grid-container {
+    height: 250rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(36rem, 20rem);
+    background-color: rgba(251, 247, 255, 0.874);
+    justify-items: center;
+
+}
+
+.card {
+    width: 28rem;
+    height: 25rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    /* overflow:auto; */
+    overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: rgba(132, 52, 146, 0.775);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(111, 39, 124);
+}
