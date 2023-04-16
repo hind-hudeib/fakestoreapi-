@@ -9,5 +9,5 @@ I create this web page to display 20 products in cards that have been created us
 - js
 
 
-### live 
- ()[https://hind-hudeib.github.io/fakestoreapi-/]
+
+ [live code ](https://hind-hudeib.github.io/fakestoreapi-/)
